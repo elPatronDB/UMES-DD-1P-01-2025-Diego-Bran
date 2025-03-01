@@ -1,4 +1,62 @@
 .header{
-    
+    margin: 0%;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    height: 10vh;
+    text-align:right;
+    display: flex;
+    border-bottom: black;
+    text-align:right;
+}
 
+.header:hover{
+    color: white;
+    background-color: black;
+    transition: background-color 1s;
+    flex-wrap: wrap;
+    align-items:stretch;
+}
+
+.header-content{
+    text-emphasis-color: black;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: right;
+}
+
+.header-content:hover{
+    text-emphasis: white;
+}
+
+.body-content{
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.footer-content {
+    color: white;
+    background-color:black;
+    display: flex;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;              
+    width: 100%; 
+}
+
+.left-text {
+    text-align: left;       
+    margin:0%
+}
+
+.right-text {
+    text-align: right;          
+    margin: 0%;
 }
